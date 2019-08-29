@@ -1,5 +1,18 @@
 {
-    "require": {
-        "league/climate": "^3.4"
+  "name": "scodx/simple-invoice",
+  "description": "Little cli app to generate a simple-invoice",
+  "minimum-stability": "beta",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Oscar Sanchez",
+      "email": "oscar.exe@gmail.com"
     }
+  ],
+  "require": {
+    "league/climate": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {"scodx\\": "src/"}
+  }
 }
