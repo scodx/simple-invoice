@@ -1,0 +1,11 @@
+vendor/
+
+#misc
+*.swp
+*~
+.DS_STORE
+.idea
+.nvm-version
+.vscode
+Thumbs.db
+.project
